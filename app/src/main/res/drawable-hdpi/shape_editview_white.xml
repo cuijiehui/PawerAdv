@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+    <!-- shape设置被改变图形的形状rectangle是长方形 -->
+    <!-- 填充颜色 -->
+    <solid android:color="#FFFFFF"/>
+	<!-- 设置弧形半径长度 -->
+	<corners android:radius="5dip"/>   
+</shape>

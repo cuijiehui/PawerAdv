@@ -1,0 +1,107 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
+apply plugin: 'org.greenrobot.greendao'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion "27.0.2"
+
+    //下面两行代码 意思是禁止gradle检查png的合法性.
+    aaptOptions.cruncherEnabled = false
+    aaptOptions.useNewCruncher = false
+
+    defaultConfig {
+        applicationId "com.coresun.powerbank"
+        minSdkVersion 17
+        targetSdkVersion 27
+        versionCode 15
+        versionName "1.8.8"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+
+    }
+    buildTypes {
+        release {
+            shrinkResources false
+            minifyEnabled false
+            buildConfigField "boolean", "LOG_DEBUG", "false"
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+        }
+    }
+
+//    sourceSets {
+//        main {
+//            jniLibs.srcDirs = ['libs']
+//        }
+//    }
+
+    lintOptions {
+        abortOnError false
+        checkReleaseBuilds false
+        // 防止在发布的时候出现因MissingTranslation导致Build Failed!
+        disable 'MissingTranslation'
+    }
+
+
+    dexOptions {
+        dexInProcess true
+        preDexLibraries true
+        javaMaxHeapSize "4g"//越大越好
+        //incremental true
+        jumboMode = true
+    }
+
+    android {
+        useLibrary 'org.apache.http.legacy'
+        lintOptions { checkReleaseBuilds false }
+    }
+
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+        maven { url 'https://jitpack.io' }
+    }
+
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    //noinspection GradleCompatible
+    compile 'com.android.support:appcompat-v7:27+'
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha8'
+    //noinspection GradleCompatible
+    compile 'com.android.support:percent:27.1.0'
+    //Indcator 广告指示器
+    compile 'me.relex:circleindicator:1.2.2@aar'
+    //RxJava 网络请求，Gson解析，Glide图片加载
+    compile 'io.reactivex.rxjava2:rxjava:2.0.5'
+    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+//    compile 'com.squareup.okhttp3:okhttp:3.6.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.0-beta3'
+    compile 'com.google.code.gson:gson:2.2.4'
+//    compile 'com.squareup.okhttp3:logging-interceptor:3.6.0'
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.jakewharton.retrofit:retrofit2-rxjava2-adapter:1.0.0'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    //volley网络请求
+//    compile files('libs/volley.jar')
+    //Dagger注解框架
+    apt 'com.google.dagger:dagger-compiler:2.8'
+    provided 'org.glassfish:javax.annotation:10.0-b28'
+    compile 'com.google.dagger:dagger:2.8'
+
+    //二维码框架
+    compile 'cn.yipianfengye.android:zxing-library:2.2'
+
+    testCompile 'junit:junit:4.12'
+    //下载框架
+    compile 'com.zhy:okhttputils:2.0.0'
+    compile 'com.shuyu:GSYVideoPlayer:4.1.0'
+
+}

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- app整体风格颜色 -->
+    <color name="color_app_base_color">#0059AD</color>
+    <!--修改后app的整体风格颜色-->
+    <color name="color_app_base_color_grey">#de6350</color>
+
+    <color name="color_text_base">#ef5948</color>
+    <!--导航栏的背景颜色-->
+    <color name="main_guide_line_bg_color">#E6E6E6</color>
+    <!-- 首页四个icon背景 -->
+    <color name="main_page_icon_bg">#E7E7E7</color>
+
+    <!-- 按钮整体风格颜色 -->
+    <color name="color_bt_unpressed_color">#3284C9</color>
+    <color name="color_bt_pressed_color">#113DE2</color>
+    <!-- 黄色按钮 -->
+    <color name="color_bt_unpressed_yellow">#FCCE04</color>
+    <color name="color_bt_pressed_yellow">#EAC10F</color>
+    <!-- 点击变灰色按钮 -->
+    <color name="color_bt_unpressed_grey">#FAFAFA</color>
+    <color name="color_bt_pressed_grey">#EAE7E7</color>
+    <!-- 点击变灰色按钮 -->
+    <color name="color_bt_unpressed_red">#F83E3E</color>
+    <color name="color_bt_pressed_red">#920F0F</color>
+
+    <!-- 下载完成后,打开按钮的颜色-->
+    <color name="color_bt_open_software_unpress">#36C7FE</color>
+    <color name="color_bt_open_software_pressed">#12B4F1</color>
+
+    <!-- 标题栏字体颜色 -->
+    <color name="color_font">#ffffff</color>
+    <color name="color_font_hese">#722E2E</color>
+    <color name="color_font_yellow">#FCCE04</color>
+    <color name="color_font_gray">#8E8E8E</color>
+    <color name="app_base_text_color">#8898A3</color>
+    <color name="app_base_text_color_deep">#737373</color>
+    <color name = "app_bottom_color">#ea5205</color>
+
+    <color name = "app_trial_bottom_color">#4a4a4a</color>
+
+
+    <!-- 标题栏背景颜色 -->
+    <color name="color_title_background">#E13E3F</color>
+    <!-- radioGroup背景 -->
+    <color name="color_radio_background">#E13E3F</color>
+    <!-- 分割线颜色背景 -->
+    <color name="color_divider_background">#EBF2F4</color>
+
+    <!-- 倒计时背景 -->
+    <color name="color_timer_background">#928888</color>
+
+    <!-- 登陆页面背景 -->
+    <color name="color_login_background">#009BEB</color>
+
+    <color name="color_black">#000000</color>
+    <color name="color_red">#E13E3F</color>
+    <color name="color_deep_red">#C50000</color>
+    <color name="color_green">#77D85C</color>
+    <color name="color_gray">#E1E6E5</color>
+    <color name="color_orange">#FF5B0F</color>
+
+
+    <!-- 下拉刷新的自定义view-->
+    <color name="transparent">#00000000</color>
+    <color name="background">#EBF2F4</color>
+    <color name="title_color">#333333</color>
+
+    <!-- 注册编辑框背景颜色-->
+    <color name="color_register_edit_background">#ffffff</color>
+    <!-- 注册第三方登录线条颜色-->
+    <color name="color_register_line">#808080</color>
+    <!-- 收货地址编辑框背景颜色-->
+    <color name="color_edit_address_et">#ffffff</color>
+
+    <!--选择城市页面颜色配置-->
+    <color name="popup_main_background">#b0000000</color>
+    <color name="black">#000000</color>
+    <color name="choose_eara_item_press_color">#f4f4f4</color>
+    <color name="white">#ffffff</color>
+    <color name="no_color">#00000000</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="fashion_bt_text_press">#de0059</color>
+    <color name="gray">#DBDBDB</color>
+
+    <color name="province_line_border">#C7C7C7</color>
+
+    <color name="col_ff3432">#ff3432</color>
+    <color name="col_555555">#555555</color>
+    <color name="col_999999">#999999</color>
+    <color name="col_333333">#333333</color>
+    <color name="col_00a99a">#00a99a</color>
+    <color name="col_ebebeb">#ebebeb</color>
+    <color name="col_white">#ffffff</color>
+    <color name="col_ffaf05">#ffaf05</color>
+    <color name="col_fb2beb">#fb2beb</color>
+    <color name="col_fe682b">#fe682b</color>
+
+
+    <color name="cp_colorAccent">#F3F3F3</color>
+    <color name="cp_colorPrimary">@color/cp_colorAccent</color>
+    <color name="cp_colorPrimaryDark">@color/cp_colorAccent</color>
+
+    <color name="cp_divider">#E5E5E5</color>
+    <color name="cp_shadow">#AAEBEBEB</color>
+    <color name="cp_common_bg">#FAFAFA</color>
+    <color name="cp_content_bg">@color/cp_colorAccent</color>
+    <color name="cp_gray">#8c8c8c</color>
+    <color name="cp_gray_deep">#5c5c5c</color>
+    <color name="cp_alpha_gray">#CC646464</color>
+    <color name="cp_theme_gray">#646464</color>
+    <color name="color222">#222222</color>
+</resources>

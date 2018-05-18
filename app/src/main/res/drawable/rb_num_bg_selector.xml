@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:state_checked="true">
+        　　                                <!-- 定义当button 处于pressed 状态时的形态。 -->
+        <shape>
+            <corners android:radius="2dp"/>
+
+            <stroke android:color="#de6350"
+                android:width="1dp"/>
+
+            <solid android:color="#de6350"/>
+            　　
+        </shape>
+        　　
+    </item>
+
+    　　
+    <item android:state_checked="false">
+        　　                                <!-- 定义当button获得 focus时的形态 -->
+        　　
+        <shape>
+            <corners android:radius="2dp"/>
+
+            <stroke android:color="#de6350"
+                android:width="1dp"/>
+
+            <solid android:color="@color/color_font"/>
+            　　
+        </shape>
+        　　
+    </item>
+
+
+</selector>

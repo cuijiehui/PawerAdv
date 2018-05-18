@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/zixun"
+    tools:context="com.coresun.powerbank.ui.main.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/adv_head"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/adv_head_shape"
+        >
+
+        <com.coresun.powerbank.ui.main.viewpager.CustomViewPager
+            android:id="@+id/adv_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </FrameLayout>
+
+
+
+</android.support.percent.PercentRelativeLayout>

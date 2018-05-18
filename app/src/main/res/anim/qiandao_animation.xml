@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--加载动画-->
+<set android:shareInterpolator="false" xmlns:android="http://schemas.android.com/apk/res/android">
+    <rotate
+        android:interpolator="@android:anim/anticipate_overshoot_interpolator"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:fromDegrees="0"
+        android:toDegrees="+360"
+        android:duration="1000"
+        android:startOffset="-1"
+        android:repeatMode="restart"
+        android:repeatCount="1"/>
+</set>
+
+    <!--可以通过设置Animation的startOffset来控制Animation的运行顺序——同时或按顺序运行动画。-->
+    <!--默认情况下，Animation是同时开始的，-->
+    <!--但可以通过设置startOffset属性来指定动画在*ms后开始运行。-->

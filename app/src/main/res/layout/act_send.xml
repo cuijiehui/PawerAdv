@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        >
+        <ImageView
+            android:contentDescription="@string/content_description_led"
+            android:id="@+id/statusLed"
+            android:paddingLeft="5dp"
+            android:src="@drawable/led_disconnected"
+            android:adjustViewBounds="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/statusText"
+            android:text="@string/status_not_connected"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:paddingLeft="5dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_toRightOf="@id/statusLed" />
+
+    </LinearLayout>
+
+
+    <org.linphone.ui.AddressText
+        android:id="@+id/Adress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@drawable/dialer_address_background"
+        android:inputType="textEmailAddress"
+        android:hint="@string/addressHint"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+
+    <org.linphone.ui.CallButton
+        android:contentDescription="@string/content_description_call"
+        android:id="@+id/Call"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/call" />
+
+
+</LinearLayout>

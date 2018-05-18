@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true"
+    >
+    <!--<item android:drawable="@drawable/start_a" android:duration="50"></item>-->
+    <!--<item android:drawable="@drawable/start_b" android:duration="50"></item>-->
+    <!--<item android:drawable="@drawable/start_c" android:duration="50"></item>-->
+    <!--<item android:drawable="@drawable/start_d" android:duration="50"></item>-->
+    <!--<item android:drawable="@drawable/start_e" android:duration="50"></item>-->
+    <!--<item android:drawable="@drawable/start_f" android:duration="50"></item>-->
+    <!--<item android:drawable="@drawable/start_g" android:duration="50"></item>-->
+    <!--<item android:drawable="@drawable/start_h" android:duration="50"></item>-->
+    <!--<item android:drawable="@drawable/start_i" android:duration="50"></item>-->
+    <!--<item android:drawable="@drawable/start_j" android:duration="50"></item>-->
+    <!--<item android:drawable="@drawable/start_k" android:duration="50"></item>-->
+    <!--<item android:drawable="@drawable/start_m" android:duration="50"></item>-->
+    <!--<item android:drawable="@drawable/start_n" android:duration="50"></item>-->
+    <!--<item android:drawable="@drawable/start_o" android:duration="50"></item>-->
+    <!--<item android:drawable="@drawable/start_p" android:duration="50"></item>-->
+    <!--<item android:drawable="@drawable/start_q" android:duration="50"></item>-->
+    <!--<item android:drawable="@drawable/start_r" android:duration="50"></item>-->
+    <!--<item android:drawable="@drawable/start_s" android:duration="50"></item>-->
+    <!--<item android:drawable="@drawable/start_t" android:duration="50"></item>-->
+    <!--<item android:drawable="@drawable/start_u" android:duration="50"></item>-->
+    <!--<item android:drawable="@drawable/start_v" android:duration="50"></item>-->
+    <!--<item android:drawable="@drawable/start_w" android:duration="50"></item>-->
+    <!--<item android:drawable="@drawable/start_x" android:duration="50"></item>-->
+    <!--<item android:drawable="@drawable/start_y" android:duration="50"></item>-->
+    <!--<item android:drawable="@drawable/start_z" android:duration="50"></item>-->
+</animation-list>
